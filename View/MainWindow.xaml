@@ -1,0 +1,24 @@
+﻿<Window x:Class="WPFKnowledge.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFKnowledge"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="700">
+    <StackPanel Orientation="Horizontal">
+        <Button Style="{StaticResource FontStyle}" Content="{StaticResource IconCaffee}" Foreground="#FFE88A0A"/>
+        <Button Style="{StaticResource FontStyle}" Content="{StaticResource IconCamera}" Foreground="#FF01F90D"/>
+        <Button Style="{StaticResource FontStyle}" Content="{StaticResource IconDelete}" Foreground="#FFF0F107"/>
+        <Button Style="{StaticResource FontStyle}" Content="{StaticResource IconFile}" Foreground="#FF0E50EB"/>
+        <Button Style="{StaticResource FontStyle}" Content="{StaticResource IconGame}" Foreground="#FFD106EB"/>
+        <Button Style="{StaticResource FontStyle}" Content="{StaticResource IconPassion}" Foreground="#FFF90808"/>
+        <Button Style="{StaticResource FontStyle}" Content="{StaticResource IconProject}" Foreground="#FF00EDFA"/>
+        <Button Style="{StaticResource FontStyle}" Content="{StaticResource IconSafety}" Foreground="#FF58F604"/>
+        <Button Style="{StaticResource FontStyle}" Content="{StaticResource IconSave}" Foreground="#FFDD11EE"/>
+        <Button Style="{StaticResource FontStyle}" Content="{StaticResource IconSetting}" Foreground="#FF02FA05"/>
+        <Button Style="{StaticResource FontStyle}" Content="{StaticResource IconVideo}" Foreground="#FFC108F6"/>
+        <Button Style="{StaticResource FontStyle}" Content="{StaticResource IconVolume}" Foreground="#FF00FC03"/>
+        <Button Style="{StaticResource FontStyle}" Background="{StaticResource brush}" Width="100" Height="50"/>
+    </StackPanel>
+</Window>

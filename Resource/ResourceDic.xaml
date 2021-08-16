@@ -1,0 +1,34 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <FontFamily x:Key="fontFamily">
+        /Asset/Font/#iconfont
+    </FontFamily>
+
+    <ImageBrush x:Key="brush" ImageSource="/Asset/Images/Mount.jpg"/>
+
+    <system:String x:Key="IconSave">&#xf675;</system:String>
+    <system:String x:Key="IconProject">&#xf678;</system:String>
+    <system:String x:Key="IconPassion">&#xf679;</system:String>
+    <system:String x:Key="IconDelete">&#xf67e;</system:String>
+    <system:String x:Key="IconFile">&#xf680;</system:String>
+    <system:String x:Key="IconVideo">&#xf683;</system:String>
+    <system:String x:Key="IconCamera">&#xf686;</system:String>
+    <system:String x:Key="IconCaffee">&#xf689;</system:String>
+    <system:String x:Key="IconSafety">&#xf692;</system:String>
+    <system:String x:Key="IconVolume">&#xf69c;</system:String>
+    <system:String x:Key="IconGame">&#xf6a4;</system:String>
+    <system:String x:Key="IconSetting">&#xf6a8;</system:String>
+
+    <Style x:Key="FontStyle" TargetType="Button">
+        <Setter Property="FontSize" Value="35"/>
+        <Setter Property="VerticalAlignment" Value="Top"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="FontFamily" Value="{StaticResource fontFamily}"/>
+        <Setter Property="Margin" Value="5"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderThickness" Value="0"/>
+    </Style>
+
+</ResourceDictionary>
